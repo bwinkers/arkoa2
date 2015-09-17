@@ -1,0 +1,3 @@
+{
+  "serviceModules": ["auth", "static", "hijacked", "homepage"]
+}

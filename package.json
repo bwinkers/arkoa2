@@ -2,9 +2,9 @@
   "name": "arkoa2",
   "version": "0.1.0",
   "description": "ActiveRules server example, uses AR-Server and AR-Nugget modules",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "activerules",
     "arkoa",
     "mongorito",
-    "mongoi",
+    "mongo",
     "ar-nugget",
     "ar-server"
   ],
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/bwinkers/arkoa2/issues"
   },
-  "homepage": "https://github.com/bwinkers/arkoa2#readme"
+  "homepage": "https://github.com/bwinkers/arkoa2#readme",
+  "dependencies": {
+    "ar-nugget": "^0.1.0",
+    "ar-server": "^0.1.0",
+    "koala": "^1.0.0",
+    "lodash": "^3.10.1"
+  }
 }
